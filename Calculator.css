@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 9px;
+    box-sizing: border-box;
+    font-size: bold;
+}
+
+.Wrapper{
+    width: 280px;
+    height: 440px;
+    background-color: rgb(8, 8, 8);
+    margin: 200px 200px;
+    border-radius: 25px;
+}
+Button{
+    border-radius: 50%;
+    border: none;
+    margin: 5px;   
+    padding: 15px;
+}
+.Long{
+    border-radius: 50px;
+    width: 110px;
+}
+.Zero{
+    color: white;
+    text-align: right;
+    margin-right: 5px ;
+;
+
+}
+.RightColum{
+    background-color: rgb(213, 165, 6);
+ 
+}
+.number{
+    background-color: rgb(49, 47, 47);
+    padding: 19px;
+}
+
+
