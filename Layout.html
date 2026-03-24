@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        text-align: center;
+        
+        
+    }
+    .LongestBox{
+        display: grid;
+        
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        height: 600px;
+        
+    }
+    .Header{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .SmallBox
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .ThirdColumns{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .one, .four, .two, .six, .eigh{
+        background-color: aqua;
+    }
+   
+    .three, .five, .seven{
+        background-color: rgb(250, 17, 17);
+    }
+        
+ 
+       
+    </style>
+</head>
+<body>
+    <div class="Wrapper">
+       <div class="LongestBox">
+            <div class="one">1</div>
+            <div class="Header">
+                <div class="two">2</div>
+                
+                
+                <div class="SmallBox">
+                    <div class="four">4</div>
+                    <div class="five">5</div>
+                    <div class="seven">7</div>
+                    <div class="eigh">8</div>
+                </div>
+                
+            </div>
+            <div class="ThirdColumns">
+                <div class="three">3</div>
+                <div class="six">6</div>
+            </div>
+       </div>
+       
+       
+       
+       
+       
+    </div>
+</body>
+</html>
